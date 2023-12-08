@@ -1,0 +1,136 @@
+a {
+    all: unset;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#container article{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5%;
+    margin: 0 2rem;
+}
+
+div.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 4;
+}
+
+div.item_info{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+div.placeholder{
+    flex:3;
+}
+
+#container article img{
+    width: 12%;
+    height: 12%;
+    flex:1;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+h3.price{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+h4.discount_price{
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: gray;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+p.lowest_price{
+    font-size: 0.8rem;
+}
+
+button.buy_button{
+    background-color: orange;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(0, 75, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p{
+    color: rgb(242, 103, 33);
+}
+
+#contact-footer a{
+    padding: .2rem 0 .2rem 0;
+}
+
+#social-footer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-footer img{
+    padding: 0 2rem 0 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+nav img{
+    flex: 2;
+    width: 3rem;
+    height: 5rem;
+}
+
+nav .placeholder{
+    flex: 2;
+}
+
+nav #navbar-links{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex: 7;
+    align-content: flex-end;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
