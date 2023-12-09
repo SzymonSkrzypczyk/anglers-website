@@ -12,3 +12,169 @@ h1{
     flex-direction: column;
     
 }
+
+footer{
+    background-color: rgb(0, 75, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer p{
+    color: rgb(242, 103, 33);
+}
+
+#contact-footer a{
+    padding: .2rem 0 .2rem 0;
+}
+
+#social-footer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-footer img{
+    padding: 0 2rem 0 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+nav img{
+    flex: 2;
+    width: 3rem;
+    height: 5rem;
+}
+
+nav .placeholder{
+    flex: 2;
+}
+
+nav #navbar-links{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex: 7;
+    align-content: flex-end;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+.latest_blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#main_image{
+    width: 50%;
+    flex: 4;
+}
+
+.side_images{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.side_images img{
+    width: 100%;
+}
+
+#side_text1{
+    position: absolute;
+    color: white;
+    top: 45%;
+    right: 18%;
+    font-size: 2rem;
+}
+
+#side_text2{
+    position: absolute;
+    color: white;
+    top: 75%;
+    right: 15%;
+    font-size: 2rem;
+}
+
+
+div.placeholder{
+    flex:1;
+}
+
+#container{
+    padding-bottom: 2rem;
+}
+
+.latest_blog h3{
+    position: absolute;
+    top: 70%;
+    right: 50%;
+    font-size: 3rem;
+    color: white;
+}
+
+div.rest_blog{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+div.rest_latest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 5;
+}
+
+.rest_latest article{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-bottom: 0;
+}
+.rest_latest article h3{
+    text-align: center;
+}
+
+.rest_latest article img{
+    justify-content: center;
+}
+
+div.popular{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: flex-start;
+    text-align: center;
+
+}
+
+.popular h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.popular ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0;
+}
+
+.popular ul li{
+    padding: 1rem;
+}
