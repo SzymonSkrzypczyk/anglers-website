@@ -4,63 +4,85 @@
         <title>Landing Page</title>
     </head>
     <link rel="stylesheet" href="../style/index.css">
+    <link rel="shortcut icon" href="../images/icon.ico">
     <body onload="startup()">
-        <nav>
+        <nav id="header">
             <img id="thumbnail" src="../images/fish-thumbnail.webp">
             <div class="placeholder"></div>
-            <ul id="navbar-links">
-                <a href="blog.html">Blog</a>
-                <a href="shop.html">Sklep</a>
-                <a href="#contact-footer">Kontakt</a>
-                <a href="fish.html">Katalog Ryb</a>
-            </ul>
+            <nav id="navbar-links">
+                <a href="blog.html">
+                    <img src="../images/blogicon.svg"><br>
+                    Blog
+                </a>
+                <a href="shop.html">
+                    <img src="../images/sklepicon.svg"><br>
+                    Sklep
+                </a>
+                <a href="#contact-footer">
+                    <img src="../images/kontakticon.svg"><br>
+                    Kontakt
+                </a>
+                <a href="fish.html">
+                    <img src="../images/rybaicon.svg"><br>
+                    Katalog Ryb
+                </a>
+            </nav>
         </nav>
         <header>
             <h1 id="text-header">ŚWIAT WĘDKARZA</h1> <!--text ze scrollem-->
         </header>
         <div id="container">
             <div id="commercial-left">
-                <!--<img src="../images/reklama1.jpeg">-->
+                <a href="#"><img src="../images/ad1.jpg"></a>
             </div>
             <div id="content">
-                <article class="article-latest">
-                        <h3 class="title">tytul 1</h3>
-                        <h4 class="author">author 1</h4>
-                        <h4 class="created">data 1</h4>
-                        <p></p>
+                  <article class="article-latest">
+                    <h3 class="title">Skandal na nielegalnym łowisku w Choroszczy!</h3>
+                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet justo donec enim diam vulputate ut pharetra. Posuere lorem ipsum dolor sit amet. Nunc sed blandit libero volutpat sed. Tellus elementum sagittis vitae et leo duis ut diam. Ultrices tincidunt arcu non sodales. Habitant morbi tristique senectus et. Mauris in aliquam sem fringilla. Scelerisque varius morbi enim nunc faucibus a pellentesque. Quam elementum pulvinar etiam non. Vestibulum lorem sed risus ultricies tristique nulla.
+                    </text>
+                    <a href="">Zobacz więcej...</a>
+                    <h4 class="author">Tu trzeba wymyślić kogoś śmiesznego</h4>
+                    <h4 class="created">14.12.2023</h4>
+                    <p></p>
                 </article>
                 <article class="article-latest">
-                        <h3 class="title">tytul 2</h3>
-                        <h4 class="author">author 2</h4>
-                        <h4 class="created">data 2</h4>
-                        <p></p>
+                    <h3 class="title">Nowy kalendarz rybacki 18+ już w sprzedaży</h3>
+                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet justo donec enim diam vulputate ut pharetra. Posuere lorem ipsum dolor sit amet. Nunc sed blandit libero volutpat sed. Tellus elementum sagittis vitae et leo duis ut diam. Ultrices tincidunt arcu non sodales. Habitant morbi tristique senectus et. Mauris in aliquam sem fringilla. Scelerisque varius morbi enim nunc faucibus a pellentesque. Quam elementum pulvinar etiam non. Vestibulum lorem sed risus ultricies tristique nulla.
+                    </text>
+                    <a href="">Zobacz więcej...</a>
+                    <h4 class="author">Zdzisław Siwy</h4>
+                    <h4 class="created">03.12.2023</h4>
+                     <p></p>
                 </article>
                 <article class="article-latest">
-                        <h3 class="title">tytul 3</h3>
-                        <h4 class="author">author 3</h4>
-                        <h4 class="created">data 3</h4>
-                        <p></p>
+                    <h3 class="title">Włodzimierz Biały wreszcie ujawnia swoje sekrety</h3>
+                    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet justo donec enim diam vulputate ut pharetra. Posuere lorem ipsum dolor sit amet. Nunc sed blandit libero volutpat sed. Tellus elementum sagittis vitae et leo duis ut diam. Ultrices tincidunt arcu non sodales. Habitant morbi tristique senectus et. Mauris in aliquam sem fringilla. Scelerisque varius morbi enim nunc faucibus a pellentesque. Quam elementum pulvinar etiam non. Vestibulum lorem sed risus ultricies tristique nulla.
+                    </text>
+                    <a href="">Zobacz więcej...</a>
+                    <h4 class="author">Jeremiasz Róż</h4>
+                    <h4 class="created">28.11.2023</h4>
+                    <p></p>
                 </article>
             </div>
             <div id="commercial-right">
-
+                <a href="#"><img src="../images/ad2.jpg"></a>
             </div>
         </div>
         <footer>
             <!-- dane kontaktowe -->
+            <div id="contact-footer">
+                <a href="#">Blog</a>
+                <a href="#">Sklep</a>
+                <a href="#">Katalog Ryb</a>
+            </div>
             <div id="social-footer">
                 <a href="#"><img src="../images/icons8-facebook-50.png"></a>
                 <a href="#"><img src="../images/icons8-youtube-50.png"></a>
                 <a href="#"><img src="../images/icons8-x-50.png"></a>
                 <a href="#"><img src="../images/icons8-mail-50.png"></a>
             </div>
-            <div id="contact-footer">
-                <a href="#">Blog</a>
-                <a href="#">Sklep</a>
-                <a href="#">Katalog Ryb</a>
-            </div>
             <p>
-                Copyright©2023
+                Copyright Fisher's © 2023
             </p>
         </footer>
         <script src="../scripts/index.js"></script>
