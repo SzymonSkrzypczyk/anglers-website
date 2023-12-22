@@ -1,0 +1,209 @@
+paleta{
+    color: #213363;
+    color: #17594A;
+    color: #8EAC50;
+    color: #D3D04F;
+    }
+
+body{
+    background: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);
+}
+
+textarea{
+    resize: none;
+}
+
+links{
+    height: auto;
+    flex: 7;
+    align-content: flex-end;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: rgb(64, 74, 103);
+    border-radius: 8px;
+    margin-top: 4rem;
+}
+
+#navbar-links img{
+    height: 3rem;
+    width: 3rem;
+}
+
+#navbar-links a{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+#navbar-links a:hover{
+    background-color: rgb(82, 99, 149);
+    border-radius: 8px;
+}
+
+footer{
+    background-color: #28564b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+footer p{
+    color: rgb(242, 103, 33);
+}
+
+#contact-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+#contact-footer a{
+    padding: .2rem 0 .2rem 0;
+    margin: 3px;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+#social-footer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-footer img{
+    padding: 0 2rem 0 2rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+#thumbnail{
+    flex: 2;
+    max-width: 20rem;
+    height: 12rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    align-items: center;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#intro .left{
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+}
+
+#intro .left h4{
+    margin: 0;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.left h1{
+    text-align: center;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+}
+
+.left img{
+    width: 35rem;
+    height: 20rem;
+}
+
+#intro .right{
+    flex: 3;
+}
+
+#mail_input{
+    width: 150%;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 1rem black;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#text_input{
+    width: 150%;
+    height: 300%;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+#submit_but{
+    font-size: 2rem;
+    width: 150%;
+    height: 150%;
+    margin: 0.5rem 0;
+}
+
+#contact_header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#content{
+    margin: 2rem 3rem;
+    border: 0.2rem solid rgb(242, 103, 33);
+    border-radius: 2%;
+    /*background-color: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);*/
+    color: rgb(255, 179, 0);
+}
+
+#content p{
+    padding: 0 5rem;
+    font-size: 1.5rem;
+}
+
+.right h3{
+    font-size: 2.4rem;
+}
+
+
+#recommended{
+    list-style-type: none;
+    text-align: center; 
+    
+}
+
+#recommended a{
+    text-decoration: none;
+    color: black;
+}
+
+#recommended a li{
+    font-size: 1.2rem;
+    padding: 0.8rem 0;
+}
