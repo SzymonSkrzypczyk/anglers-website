@@ -97,3 +97,36 @@ nav #navbar-links{
     text-decoration: none;
     color: rgb(255, 179, 0);
 }
+
+#carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carousel img{
+    margin: 0 2rem;
+    width: 50rem;
+    height: 25rem;
+}
+
+#change_lay{
+    display: flex;
+    flex-direction: row;
+}
+
+#carousel h3{
+    margin: .2rem;
+    font-size: 3rem;
+
+}
+
+#change_lay a{
+    font-size: 4rem;
+    border-radius: 65%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 0 2rem;
+    background-color: gray;
+    text-align: center;
+}
