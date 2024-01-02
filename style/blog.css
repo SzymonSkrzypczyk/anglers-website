@@ -138,7 +138,13 @@ nav .placeholder{
 .item_main{
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem 3rem 4rem 3rem;
+    align-items: center;
+}
+
+.item_main img{
+    width: 16rem;
+    height: 8rem;
 }
 
 
