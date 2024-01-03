@@ -9,13 +9,6 @@ body{
     background: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);
 }
 
-#text-header{
-    font-size: 4rem;
-    text-align: center;
-    width: 100%;
-    color: rgb(255, 179, 0);
-}
-
 #navbar-links{
     height: auto;
     flex: 7;
@@ -49,52 +42,13 @@ body{
     border-radius: 8px;
 }
 
-footer{
-    background-color: #28564b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2rem;
-    border-radius: 8px;
-}
-
-footer p{
-    color: rgb(242, 103, 33);
-}
-
-#contact-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 5px;
-    text-align: center;
-}
-
-#contact-footer a{
-    padding: .2rem 0 .2rem 0;
-    margin: 3px;
-    text-decoration: none;
-    color: rgb(255, 179, 0);
-}
-
-#social-footer{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#social-footer img{
-    padding: 0 2rem 0 2rem;
-}
-
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 1rem;
     margin-right: 1rem;
+    height: 12rem;
 }
 
 #thumbnail{
@@ -103,9 +57,16 @@ nav{
     height: 12rem;
 }
 
-nav .placeholder{
+div .placeholder{
     flex: 2;
     max-width: 6rem;
+}
+
+#text-header{
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 179, 0);
 }
 
 #container{
@@ -167,6 +128,46 @@ div #commercial-right img{
 .title{
     color: rgb(242, 103, 33);
     font-size: 2rem;
+}
+
+footer{
+    background-color: #28564b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+footer p{
+    color: rgb(242, 103, 33);
+}
+
+#contact-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+#contact-footer a{
+    padding: .2rem 0 .2rem 0;
+    margin: 3px;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+#social-footer{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-footer img{
+    padding: 0 2rem 0 2rem;
 }
 
 ::-webkit-scrollbar{

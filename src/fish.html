@@ -2,27 +2,41 @@
 <html>
     <head>
         <title>Katalog Ryb</title>
+        <link rel="shortcut icon" href="../images/icon.ico">        
         <link href="../style/fish.css" rel="stylesheet">
     </head>
     <body onload="startup()">
-        <nav>
+        <nav id="header">
+            <img id="thumbnail" src="../images/fish-thumbnail.webp">
             <div class="placeholder"></div>
-            <ul id="navbar-links">
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
-                <a href="shop.html">Sklep</a>
-                <a href="#contact-footer">Kontakt</a>
-            </ul>
+            <nav id="navbar-links">
+                <a href="blog.html">
+                    <img src="../images/blogicon.svg"><br>
+                    Blog
+                </a>
+                <a href="shop.html">
+                    <img src="../images/sklepicon.svg"><br>
+                    Sklep
+                </a>
+                <a href="#contact-footer">
+                    <img src="../images/kontakticon.svg"><br>
+                    Kontakt
+                </a>
+                <a href="fish.html">
+                    <img src="../images/rybaicon.svg"><br>
+                    Katalog Ryb
+                </a>
+            </nav>
         </nav>
         <header>
-            <h1>
-                Katalog Ryb
-            </h1>
+            <h1 id="text-header">Katalog Ryb</h1>
         </header>
         <div id="carousel">
-            <a href="../src/fish/ryba1.html" id="link"><img id="image" src="../images/fish/amur_bialy.jpg"></a>
+            <a href="../src/fish/ryba1.html" id="link">
+                <img id="image" src="../images/fish/Amur_biały.jpg">
+            </a>
             <h3 id="desc">
-                amur bialy
+                Amur biały
             </h3>
             <div id="change_lay">
                 <a onclick="change(-1)"><</a>
@@ -31,16 +45,17 @@
         </div>
         <footer>
             <!-- dane kontaktowe -->
+            <div id="contact-footer">
+                <a href="index.html">Strona Główna</a>&nbsp
+                <a href="blog.html">Blog</a>&nbsp
+                <a href="shop.html">Sklep</a>&nbsp
+                <a href="fish.html">Katalog Ryb</a>&nbsp
+            </div>
             <div id="social-footer">
                 <a href="#"><img src="../images/icons8-facebook-50.png"></a>
                 <a href="#"><img src="../images/icons8-youtube-50.png"></a>
                 <a href="#"><img src="../images/icons8-x-50.png"></a>
                 <a href="#"><img src="../images/icons8-mail-50.png"></a>
-            </div>
-            <div id="contact-footer">
-                <a href="#">Blog</a>
-                <a href="#">Sklep</a>
-                <a href="#">Katalog Ryb</a>
             </div>
             <p>
                 Copyright©2023

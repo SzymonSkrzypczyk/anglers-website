@@ -1,13 +1,68 @@
-a {
-    all: unset;
+body{
+    background: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);
 }
 
-h1{
+#text-header{
     font-size: 4rem;
     text-align: center;
+    width: 100%;
+    color: rgb(255, 179, 0);
 }
 
+#navbar-links{
+    height: auto;
+    flex: 7;
+    align-content: flex-end;
+    text-align: end;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    max-width: 1000px;
+    margin: 25px auto;
+    background-color: rgb(64, 74, 103);
+    border-radius: 8px;
+    margin-top: 4rem;
+}
+
+#navbar-links img{
+    height: 3rem;
+    width: 3rem;
+}
+
+#navbar-links a{
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+#navbar-links a:hover{
+    background-color: rgb(82, 99, 149);
+    border-radius: 8px;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+#thumbnail{
+    flex: 2;
+    max-width: 20rem;
+    height: 12rem;
+}
+
+div .placeholder{
+    flex: 2;
+    max-width: 6rem;
+}
+/*
 #container{
+    background-color: rgb(45,106,65);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,6 +70,8 @@ h1{
     text-align: center;
     margin: 0 2rem;
     gap: 2rem;
+    border: 7px solid rgb(47,118,69);
+    padding: 2rem;
 }
 
 #container article{
@@ -30,73 +87,7 @@ article img{
     width: 50%;
     height: 60%;
 }
-
-#contact-footer{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(255, 179, 0);
-    
-}
-
-footer{
-    background-color: rgb(0, 75, 107);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2rem;
-}
-
-footer p{
-    color: rgb(242, 103, 33);
-}
-
-#contact-footer a{
-    padding: .2rem 0 .2rem 0;
-}
-
-#social-footer{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#social-footer img{
-    padding: 0 2rem 0 2rem;
-}
-
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 1rem;
-    margin-right: 1rem;
-}
-
-nav img{
-    flex: 2;
-    width: 3rem;
-    height: 5rem;
-}
-
-nav .placeholder{
-    flex: 2;
-}
-
-nav #navbar-links{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    flex: 7;
-    align-content: flex-end;
-    text-align: end;
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(255, 179, 0);
-}
+*/
 
 #carousel{
     display: flex;
@@ -108,6 +99,7 @@ nav #navbar-links{
     margin: 0 2rem;
     width: 50rem;
     height: 25rem;
+    box-shadow: 2px 2px 4px black;
 }
 
 #change_lay{
@@ -127,6 +119,70 @@ nav #navbar-links{
     width: 4.5rem;
     height: 4.5rem;
     margin: 0 2rem;
-    background-color: gray;
+    background-color: rgb(113, 116, 124);
     text-align: center;
+    text-decoration: none;
+}
+
+#change_lay a:hover{
+    background-color:rgb(69, 76, 97)
+}
+
+footer{
+    background-color: #28564b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+footer p{
+    color: rgb(242, 103, 33);
+}
+
+#contact-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+}
+
+#contact-footer a{
+    padding: .2rem 0 .2rem 0;
+    margin: 3px;
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+
+#social-footer{
+    padding: 0 2rem 0 2rem;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(16,25,49);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(211,208,79,1);
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px){
+
+    #header{
+        flex-direction: column;
+        max-width: 100%;
+        width: auto;
+    }
+
+    #navbar-links{
+        width: 100%;
+    }
 }

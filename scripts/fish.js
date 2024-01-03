@@ -1,6 +1,6 @@
 let currentPage = 0;
 const maxPages = 10;
-const ryby = ["amur_bialy", "bolen", "brzana", "glowacica", "jaz", "karas", "karp_lustrzen", "kielb", "klen", "krap"];
+const ryby = ["Amur_biały", "Boleń", "Brzana", "Głowacica", "Jaź", "Karaś", "Karp_lustrzeń", "Kiełb", "Kleń", "Krąp"];
 
 
 function change(_change){

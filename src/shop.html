@@ -3,95 +3,113 @@
     <head>
         <title>Sklep</title>
         <link rel="stylesheet" href="../style/shop.css">
+        <link rel="shortcut icon" href="../images/icon.ico">        
     </head>
     <body onload="startup()">
         <nav>
+            <img id="thumbnail" src="../images/fish-thumbnail.webp">
             <div class="placeholder"></div>
-            <ul id="navbar-links">
-                <a href="index.html">Home</a>
-                <a href="shop.html">Sklep</a>
-                <a href="#contact-footer">Kontakt</a>
-                <a href="fish.html">Katalog Ryb</a>
-            </ul>
+            <nav id="navbar-links">
+                <a href="blog.html">
+                    <img src="../images/blogicon.svg"><br>
+                    Blog
+                </a>
+                <a href="shop.html">
+                    <img src="../images/sklepicon.svg"><br>
+                    Sklep
+                </a>
+                <a href="#contact-footer">
+                    <img src="../images/kontakticon.svg"><br>
+                    Kontakt
+                </a>
+                <a href="fish.html">
+                    <img src="../images/rybaicon.svg"><br>
+                    Katalog Ryb
+                </a>
+            </nav>
         </nav>
         <header>
-            <h1>
+            <h1 id="text-header">
                 Sklep Wedkarski
             </h1>
         </header>
-        <div id="container">
-            <article>
-                <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
-                <div class="item">
-                    <h3>item</h3>
-                </div>
-                <div class="item_info">
-                    <h3 class="price">63.99</h3>
-                    <h4 class="discount_price">151.99</h4>
-                    <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
-                    <button class="buy_button" onclick="buy()">Kup</button>
-                </div>
-            </article>
+        <div id="main">
+            <div id="content">
+                <article>
+                    <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
+                    <div class="item">
+                        <h2>item</h2>
+                    </div>
+                    <div class="item_info">
+                        <h3 class="price">63.99</h3>
+                        <h4 class="discount_price">151.99</h4>
+                        <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
+                        <button id="trigger1" onclick="buy1()">Dodaj do koszyka</button>
+                    </div>
+                </article>
 
-            <article>
-                <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
-                <div class="item">
-                    <h3>item</h3>
-                </div>
-                <div class="item_info">
-                    <h3 class="price">63.99</h3>
-                    <h4 class="discount_price">151.99</h4>
-                    <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
-                    <button class="buy_button" onclick="buy()">Kup</button>
-                </div>
-            </article>
+                <article>
+                    <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
+                    <div class="item">
+                        <h2>item</h2>
+                    </div>
+                    <div class="item_info">
+                        <h3 class="price">63.99</h3>
+                        <h4 class="discount_price">151.99</h4>
+                        <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
+                        <button id="trigger2" onclick="buy2()">Dodaj do koszyka</button>
+                    </div>
+                </article>
 
-            <article>
-                <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
-                <div class="item">
-                    <h3>item</h3>
-                </div>
-                <div class="item_info">
-                    <h3 class="price">63.99</h3>
-                    <h4 class="discount_price">151.99</h4>
-                    <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
-                    <button class="buy_button" onclick="buy()">Kup</button>
-                </div>
-            </article>
+                <article>
+                    <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
+                    <div class="item">
+                        <h2>item</h2>
+                    </div>
+                    <div class="item_info">
+                        <h3 class="price">63.99</h3>
+                        <h4 class="discount_price">151.99</h4>
+                        <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
+                        <button id="trigger3" onclick="buy3()">Kup</button>
+                    </div>
+                </article>
 
-            <article>
-                <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
-                <div class="item">
-                    <h3>item</h3>
-                    <p>Produkt: Wędzisko</p>
-                    <p>Rodzaj: Match</p>
-                    <p>Długość: 30cm</p>
-                </div>
-                <div class="item_info">
-                    <h3 class="price">63.99</h3>
-                    <h4 class="discount_price">151.99</h4>
-                    <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
-                    <button class="buy_button" onclick="buy()">Kup</button>
-                </div>
-            </article>
-            
+                <article>
+                    <img src="https://ecsmedia.pl/c/zestaw-wedkarski-uniwersalny-2x-wedka-kolowrotek-z60-b-iext116004650.jpg">
+                    <div class="item">
+                        <h2>item</h2>
+                        <p>Produkt: Wędzisko</p>
+                        <p>Rodzaj: Match</p>
+                        <p>Długość: 30cm</p>
+                    </div>
+                    <div class="item_info">
+                        <h3 class="price">63.99</h3>
+                        <h4 class="discount_price">151.99</h4>
+                        <p class="lowest_price">Najnizsza cena sprzed 30 dni: 85.99</p>
+                        <button id="trigger4" onclick="buy4()">Dodaj do koszyka</button>
+                    </div>
+                </article>
+            </div>
+            <div id="content2">
+                <p>Koszyk: </p>
+            </div>
         </div>
-
         <footer>
             <!-- dane kontaktowe -->
+            <div id="contact-footer">
+                <a href="index.html">Strona Główna</a>&nbsp
+                <a href="blog.html">Blog</a>&nbsp
+                <a href="shop.html">Sklep</a>&nbsp
+                <a href="fish.html">Katalog Ryb</a>&nbsp
+            </div>
             <div id="social-footer">
                 <a href="#"><img src="../images/icons8-facebook-50.png"></a>
                 <a href="#"><img src="../images/icons8-youtube-50.png"></a>
                 <a href="#"><img src="../images/icons8-x-50.png"></a>
                 <a href="#"><img src="../images/icons8-mail-50.png"></a>
             </div>
-            <div id="contact-footer">
-                <a href="#">Blog</a>
-                <a href="#">Sklep</a>
-                <a href="#">Katalog Ryb</a>
-            </div>
             <p>
-                Copyright©2023
+                Copyright Fisher's © 2023
             </p>
         </footer>
         <script src="../scripts/index.js"></script>
