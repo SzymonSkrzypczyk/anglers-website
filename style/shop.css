@@ -7,14 +7,16 @@ h1{
     text-align: center;
 }
 
-#container{
+#content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    align-items: center;
 }
 
-#container article{
+#content article{
+    /*align-items: center;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -22,7 +24,15 @@ h1{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-radius: 5%;
-    margin: 0 2rem;
+    margin: 0 2rem;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.2rem solid black;
+    border-radius: 20%;
+    padding: 2rem;
+    width: 80%;
+    text-align: center;
 }
 
 div.item{
@@ -38,15 +48,16 @@ div.item_info{
     flex: 2;
     padding: 0;
     margin-right: 2rem;
+    text-align: center;
 }
 
 div.placeholder{
     flex:3;
 }
 
-#container article img{
-    width: 12%;
-    height: 12%;
+#content article img{
+    width: 70%;
+    height: 50%;
     flex:1;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -134,4 +145,28 @@ nav #navbar-links{
     font-weight: bold;
     text-decoration: none;
     color: rgb(255, 179, 0);
+}
+
+#cart_content{
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+}
+
+#lista div{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border: 0.2rem solid black;
+    margin: 1rem;
+    border-radius: 5%;
+    padding: 0 2rem;
+}
+
+
+#lista div but{
+    width: 6rem;
+    height: 2rem;
 }

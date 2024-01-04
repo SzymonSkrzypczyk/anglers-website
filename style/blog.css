@@ -2,6 +2,10 @@ a {
     all: unset;
 }
 
+body{
+    background: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);
+}
+
 #navbar-links{
     height: auto;
     flex: 7;
@@ -140,11 +144,20 @@ nav .placeholder{
     flex-direction: column;
     padding: 2rem 3rem 4rem 3rem;
     align-items: center;
+    background-color: rgb(64, 74, 103);
 }
 
 .item_main img{
     width: 16rem;
     height: 8rem;
+}
+
+.item_main h3, h5{
+    color: rgb(242, 103, 33);
+}
+
+.item_main p{
+    color: rgb(255, 179, 0);
 }
 
 
