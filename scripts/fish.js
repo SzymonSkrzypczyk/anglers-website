@@ -11,5 +11,5 @@ function change(_change){
     let text = document.getElementById("desc");
     image.src = "../images/fish/" + ryby[currentPage] + ".jpg";
     text.innerHTML = ryby[currentPage].replace("_", " ");
-    document.getElementById("link").href = "../src/fish/ryba" + currentPage + ".html"
+    document.getElementById("link").href = "../src/fish/ryba" + (currentPage + 1) + ".html"
 }
