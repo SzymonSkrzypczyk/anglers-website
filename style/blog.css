@@ -6,6 +6,11 @@ body{
     background: linear-gradient(180deg, rgba(33,51,99,1) 15%, rgba(23,89,74,1) 39%, rgba(142,172,80,1) 92%, rgba(211,208,79,1) 100%);
 }
 
+#container h2{
+    color: rgb(255, 179, 0);
+    font-size: 3rem;
+}
+
 #navbar-links{
     height: auto;
     flex: 7;
@@ -129,12 +134,12 @@ nav .placeholder{
 }
 
 .left .item_main{
-    border: 1px solid black;
+    border: 4px solid rgba(142,172,80,1);
     padding: 4rem;
 }
 
 .right .item_main{
-    border: 1px solid black;
+    border: 4px solid rgba(142,172,80,1);
     margin-bottom: 0.2rem;
 
 }
@@ -144,7 +149,9 @@ nav .placeholder{
     flex-direction: column;
     padding: 2rem 3rem 4rem 3rem;
     align-items: center;
-    background-color: rgb(64, 74, 103);
+    background-color: #17594A;
+    border: 4px solid rgba(142,172,80,1);
+    border-radius: 30px;
 }
 
 .item_main img{
@@ -152,18 +159,29 @@ nav .placeholder{
     height: 8rem;
 }
 
-.item_main h3, h5{
+.item_main h3{
     color: rgb(242, 103, 33);
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.item_main h5{
+    color: rgb(220, 103, 45);
+    margin-top: 0.1rem;
+    font-size: 0.7rem;
 }
 
 .item_main p{
     color: rgb(255, 179, 0);
+    margin-top: 0.5rem;
+    text-align: start;
 }
 
 
 .item_blog .item_main{
     padding: 3rem 6rem;
-    border: 1px solid black;
+    border: 4px solid rgba(142,172,80,1);
     margin-bottom: 0.5rem;
     text-align: center;
     width: 70%;
@@ -174,4 +192,9 @@ nav .placeholder{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.rest .item_blog .item_main img{
+    width: 20rem;
+    height: 12rem;
 }
