@@ -60,6 +60,10 @@ footer p{
     color: rgb(242, 103, 33);
 }
 
+#contact_header{
+    color: rgb(255, 179, 0);
+}
+
 #contact-footer{
     display: flex;
     flex-direction: row;
@@ -186,10 +190,12 @@ nav{
     margin: 0;
     padding-bottom: 0.5rem;
     text-align: center;
+    color: rgb(242, 103, 33);
 }
 
 .left h1{
     text-align: center;
+    color:rgb(255, 179, 0);;
 }
 
 #contact{
@@ -252,6 +258,7 @@ nav{
 
 .right h3{
     font-size: 2.4rem;
+    color: rgb(255, 179, 0);
 }
 
 
@@ -269,4 +276,5 @@ nav{
 #recommended a li{
     font-size: 1.2rem;
     padding: 0.8rem 0;
+    color: rgb(242, 103, 33);
 }
