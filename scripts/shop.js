@@ -33,7 +33,7 @@ function reload(){
 
         el.id = items.get(item);
         el.textContent = items.get(item);
-        delBut.innerHTML = "Delete"
+        delBut.innerHTML = "X"
         delBut.onclick=() => {delete_(item)};
         //let element = `<p id="${item}" onclick="delete_(${item})">${items.get(item)}</p>`
         lista.appendChild(div);
