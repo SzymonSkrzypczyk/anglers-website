@@ -87,25 +87,17 @@ article{
     margin-bottom: 1rem;
 }
 
-article a{
-    color: rgba(142,172,80,1);
-}
-
-article a:hover{
-    color: rgb(16, 25, 49);
-}
-
-article text{
-    color: rgb(255, 179, 0);
+#item{
+    width: 40%;
 }
 
 #content article img{
-    width: 70%;
-    height: 50%;
+    max-width: 40%;
+    height: 80%;
     flex:1;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin: 2rem;
+    margin-right: 5rem;
+    box-shadow: 0px 0px 25px 10px #329f86;
 }
 
 div.item_info{
@@ -113,7 +105,6 @@ div.item_info{
     flex-direction: column;
     flex: 2;
     padding: 0;
-    margin-right: 2rem;
     text-align: center;
 }
 
@@ -135,11 +126,13 @@ p.lowest_price{
 }
 
 article button{
+    max-width: 20rem;
     background-color: rgb(29,72,26);
     color: white;
     font-size: 1.5rem;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    margin-left: 1rem;
     box-shadow: 2px 2px 4px black;
     color: rgb(166,185,162);
 }
@@ -168,7 +161,7 @@ article button{
 }
 
 #lista div{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

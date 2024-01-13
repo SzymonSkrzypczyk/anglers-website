@@ -1,9 +1,9 @@
 let cart = new Set();
 const items = new Map();
-items.set(1, "item 1");
-items.set(2, "item 2");
-items.set(3, "item 3");
-items.set(4, "item 4");
+items.set(1, "Kołowrotek Prologic Avenger BF SST");
+items.set(2, "Guma spinningowa Savage Gear Craft Cannibal");
+items.set(3, "Wędka DAM Base-X Multipicker");
+items.set(4, "Główka Jigowa Savage Gear Ball");
 
 
 function buy(element){
